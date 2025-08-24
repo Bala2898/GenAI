@@ -1,0 +1,17 @@
+{
+  "name": "genai",
+  "version": "1.0.0",
+  "main": "genAi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "nodemon genAi.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google/genai": "^1.15.0",
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^17.2.1"
+  }
+}
